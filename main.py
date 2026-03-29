@@ -76,7 +76,7 @@ if st.button("🎲 Generar Sorteo y Vista Previa"):
     with col2:
         st.write("### Plataforma")
         st.table(pd.DataFrame(asig['plataforma'].items(), columns=["Puesto", "Nombre"]))
-requirements.txt
+requirements.text
 streamlit
 pandas
 fpdf
