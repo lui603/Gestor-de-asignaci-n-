@@ -75,12 +75,8 @@ if st.button("🎲 Generar Sorteo y Vista Previa"):
         st.table(pd.DataFrame(asig['servicio'].items(), columns=["Puesto", "Nombre"]))
     with col2:
         st.write("### Plataforma")
-        st.table(pd.DataFrame(asig['plataforma'].items(), columns=["Puesto", "Nombre"]))
-requirements.text
-streamlit
-pandas
-fpdf
-
+        st.table(pd.DataFrame(asig['plataforma'].items(), columns=["Puesto", "Nombre"] 
+                              
 # Botón de Descarga (Solo aparece si ya se generó algo)
 if 'asig_actual' in st.session_state:
     pdf_bytes = generar_pdf(st.session_state.asig_actual, fecha_selec)
