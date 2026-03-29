@@ -1,4 +1,4 @@
-Gestor-de-asignaci-n-
+python
 import streamlit as st
 import pandas as pd
 import random
