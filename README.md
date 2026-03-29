@@ -1,4 +1,4 @@
-mai.py# Gestor-de-asignaci-n-
+main.py# Gestor-de-asignaci-n-
 import streamlit as st
 import pandas as pd
 import random
